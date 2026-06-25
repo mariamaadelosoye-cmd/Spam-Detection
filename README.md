@@ -98,7 +98,7 @@ The model was evaluated using:
 * Hyperparameter tuning
 * N-gram feature engineering
 * Deployment using Streamlit
-* Real-time SMS classification interface
+* Real-time Email classification interface
 
 ---
 
