@@ -1,8 +1,8 @@
-# SMS Spam Detection using Natural Language Processing
+# Email Spam Detection using Natural Language Processing
 
 ## Overview
 
-This project builds a machine learning model capable of classifying SMS messages as either **Spam** or **Ham (Legitimate Messages)** using Natural Language Processing (NLP) techniques.
+This project builds a machine learning model capable of classifying Emails as either **Spam** or **Ham (Legitimate Messages)** using Natural Language Processing (NLP) techniques.
 
 The project demonstrates the complete NLP workflow, including data exploration, text preprocessing, feature extraction, model training, evaluation, and deployment-ready model persistence.
 
@@ -10,7 +10,7 @@ The project demonstrates the complete NLP workflow, including data exploration, 
 
 ## Problem Statement
 
-Spam messages are a common issue in digital communication. The objective of this project is to automatically identify whether an SMS message is spam or legitimate based on its textual content.
+Spam messages are a common issue in digital communication. The objective of this project is to automatically identify whether an Emails is spam or legitimate based on its textual content.
 
 This is a binary text classification problem and a classic application of Natural Language Processing.
 
@@ -18,7 +18,7 @@ This is a binary text classification problem and a classic application of Natura
 
 ## Dataset
 
-The dataset consists of SMS messages labeled as:
+The dataset consists of Emails labeled as:
 
 * **0 (Ham)** – Legitimate messages
 * **1 (Spam)** – Unwanted promotional or fraudulent messages
@@ -69,11 +69,6 @@ The model was evaluated using:
 * Confusion Matrix
 
 These metrics were selected because spam detection datasets are often imbalanced, making accuracy alone insufficient.
-
-### 6. Model Persistence
-
-The final trained pipeline was saved using Joblib, allowing it to be loaded later and used to classify new SMS messages without retraining.
-
 ---
 
 ## Technologies Used
