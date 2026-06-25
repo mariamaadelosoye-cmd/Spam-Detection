@@ -67,8 +67,6 @@ The model was evaluated using:
 * Recall
 * F1 Score
 * Confusion Matrix
-
-These metrics were selected because spam detection datasets are often imbalanced, making accuracy alone insufficient.
 ---
 
 ## Technologies Used
